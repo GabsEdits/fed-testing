@@ -1,15 +1,16 @@
 <div align="center">
   
-  # My Fedora Workstation 🎋
-Here you can find my Fedora installation and a **post-install-configuration** script
+  # Fed Testing
+Description
 
-<sup>This script is for the latest Fedora Workstation release (37, soon 38)</sup>
+<sup>Fedora • Dnf • Linux</sup>
   </div>
   
 ### Credits
 Theme: [**Adw-gtk3**](https://github.com/lassekongo83/adw-gtk3)
 <br> Local ISO Link: [**iHost.md**](https://mirror.ihost.md/)
-<br>Apps: Discord, Viber, IntelliJ Idea and BalenaEtcher</br>
+<br>Apx Installer: [SpaceGuyBob](https://github.com/spaceguybob/)</br>
+<br1>Apps: Discord, Viber, IntelliJ Idea and BalenaEtcher</br>
 ### Find ISO
 * ISO page: [/workstation/download/](https://getfedora.org/en/workstation/download/)
 * ISO page (beta): [/workstation/](https://stg.fedoraproject.org/workstation/)
@@ -29,13 +30,14 @@ sudo sh script.sh
 ```
 ## Usage
 ```
-  Usage: script.sh [-f] [-r] [-m] [-a] [-t] [-l]
+  Usage: script.sh [-f] [-r] [-m] [-a] [-t] [-l] [-x]
 -f  Make dnf faster
 -r  Add RPM Fusion
 -m  Add Multimedia Codecs
 -a  Install apps
 -l  Set up Flathub
 -t  Set up adw-gtk3 & dark sytle
+-x  Install Apx Credits: 
 ```
 
 <div align="center">
