@@ -1,13 +1,14 @@
 #!/bin/bash
 
 usage() {
-  echo "Usage: $0 [-f] [-r] [-m] [-a] [-t] [-p]" 1>&2
+  echo "Usage: $0 [-f] [-r] [-m] [-a] [-t] [-p] [-x]" 1>&2
   echo "  -f  Make dnf faster"
   echo "  -r  Add RPM Fusion"
   echo "  -m  Add Multimedia Codecs"
   echo "  -a  Install apps"
   echo "  -t  Set up adw-gtk3 & dark sytle"
   echo "  -p  Add Flathub"
+  echo "  -x  Add apx"
   exit 1
 }
 
@@ -51,6 +52,10 @@ fi
       flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
       flatpak --user override --filesystem=/home/$USER/.icons/:ro
       flatpak --user override --filesystem=/usr/share/icons/:ro
+      ;;
+      x)
+      dnf install go -y
+      curl -s https://raw.githubusercontent.com/spaceguybob/apx-install/main/installer.sh | sh
       ;;
     *)
       usage
