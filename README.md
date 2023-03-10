@@ -1,7 +1,7 @@
 <div align="center">
   
   # Fed Testing
-The testing reop for `fed`
+The testing repo for `fed`
 
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=gabsedits&repo=fed&theme=github_dark)](https://github.com/gabsedits/fed)
 
