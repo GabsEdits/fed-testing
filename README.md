@@ -3,8 +3,6 @@
   # Fed Testing
 The testing reop for `fed`
 
-<sup>This is the Testing Repo for Fed</sup>
-
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=gabsedits&repo=fed&theme=github_dark)](https://github.com/gabsedits/fed)
 
   </div>
