@@ -1,11 +1,16 @@
 <div align="center">
   
   # Fed Testing
-Description
+The testing reop for `fed`
 
-<sup>Fedora • Dnf • Linux</sup>
+<sup>This is the Testing Repo for Fed</sup>
+
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=gabsedits&repo=fed&theme=github_dark)](https://github.com/gabsedits/fed)
+
   </div>
   
+### Main Repo
+
 ### Credits
 Theme: [**Adw-gtk3**](https://github.com/lassekongo83/adw-gtk3)
 <br> Local ISO Link: [**iHost.md**](https://mirror.ihost.md/)
